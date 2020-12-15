@@ -1,6 +1,6 @@
 {
   "name": "@arvolear/alternative-dcl-ui-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of UI helpers to make it easier to build a Decentraland scene using the SDK.",
   "main": "index.ts",
   "scripts": {
@@ -28,6 +28,7 @@
     "decentraland-ecs": "latest"
   },
   "publishConfig": {
-    "access": "public"
+	"registry": "https://registry.npmjs.org/",
+	"access": "public"
   }
 }

@@ -6,7 +6,7 @@ import {
   SFFont,
   canvas,
   PlayCloseSound,
-} from '../../utils/default-ui-comopnents'
+} from '../../utils/default-ui-components'
 import { PromptStyles, ButtonStyles, SwitchStyles, ImageSection } from '../../utils/types'
 
 /**
@@ -303,11 +303,11 @@ export class CustomPromptButton extends Entity {
       switch (style) {
         case ButtonStyles.E:
           setSection(this.image, resources.buttons.buttonE)
-          this.label.positionX = 25
+          this.label.positionX = 0
           break
         case ButtonStyles.F:
           setSection(this.image, resources.buttons.buttonF)
-          this.label.positionX = 25
+          this.label.positionX = 0
           break
         case ButtonStyles.ROUNDBLACK:
           setSection(this.image, resources.buttons.roundBlack)
