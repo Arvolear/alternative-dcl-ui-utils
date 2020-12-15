@@ -47,6 +47,7 @@ export enum ButtonStyles {
   SQUAREWHITE = `squarewhite`,
   SQUARESILVER = `squaresilver`,
   SQUAREGOLD = `squaregold`,
+  CUSTOM = `custom`,
 }
 
 export enum SwitchStyles {
